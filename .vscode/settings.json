@@ -1,0 +1,11 @@
+{
+    "gitlens.remotes": [
+        {
+            "name": "gitPhil",
+            "type": "GitHub",
+            "protocol": "https",
+            "domain": "github.com",
+            "root": "/philipstephens"
+        }
+    ]
+}
