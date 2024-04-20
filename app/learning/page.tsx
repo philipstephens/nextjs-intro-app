@@ -1,5 +1,10 @@
-import Link from 'next/link';
+import { CreateToDo } from "./action";
+import { CreateButton } from '../components/createButton';
 
-export default function page() {
-    return <Link href={'/dashboard'}>Go to dashboard</Link>
+export default async function Page() {
+return (
+<form action={CreateToDo}>
+    <input name="fullName" style={{color: "black"}}></input>
+    <CreateButton/>
+</form>)
 }
